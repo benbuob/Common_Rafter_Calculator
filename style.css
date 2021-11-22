@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  padding: 20px;
+  margin-top: 10vh;
+  width: 300px;
+  height: 420px;
+  background-color: #006699;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  border-radius: 15px;
+  font-size: 18px;
+}
+
+#inchesOutput {
+  background-color: greenyellow;
+}
+
+#fractionOutput {
+  background-color: greenyellow;
+}
+
+#calculate {
+  width: 80px;
+  height: 30px;
+  background-color: greenyellow;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#calculate:hover {
+  background-color: black;
+  color: greenyellow;
+}
+
+#calculate:active {
+  padding-top: 3px;
+  border: 2px solid greenyellow;
+}
+
+#run {
+  width: 50px;
+  height: 20px;
+}
+
+#pitch {
+  width: 100px;
+  height: 20px;
+}
+
+button {
+  padding: 0;
+  border: 0;
+}

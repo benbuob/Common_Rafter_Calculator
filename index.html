@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rafter Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Common Rafter Calculator</h1>
+      <br />
+      <p>
+        <label for="run">Input Run in inches:</label>
+        <input type="number" id="run" />
+        <label for="run2">and</label>
+        <select name="run2" id="run2">
+          <option value="">0</option>
+          <option value=".0625">1/16</option>
+          <option value=".125">1/8</option>
+          <option value=".1875">3/16</option>
+          <option value=".25">1/4</option>
+          <option value=".3125">5/16</option>
+          <option value=".375">3/8</option>
+          <option value=".4375">7/16</option>
+          <option value=".5">1/2</option>
+          <option value=".5625">9/16</option>
+          <option value=".625">5/8</option>
+          <option value=".6875">11/16</option>
+          <option value=".75">3/4</option>
+          <option value=".8125">13/16</option>
+          <option value=".875">7/8</option>
+          <option value=".9375">15/16</option>
+        </select>
+      </p>
+      <br />
+      <p>
+        <label for="pitch">Select desired roof pitch:</label>
+        <select name="pitch" id="pitch">
+          <option value="1">1 / 12 pitch</option>
+          <option value="2">2 / 12 pitch</option>
+          <option value="3">3 / 12 pitch</option>
+          <option value="4">4 / 12 pitch</option>
+          <option value="5">5 / 12 pitch</option>
+          <option value="6">6 / 12 pitch</option>
+          <option value="7">7 / 12 pitch</option>
+          <option value="8">8 / 12 pitch</option>
+          <option value="9">9 / 12 pitch</option>
+          <option value="10">10 / 12 pitch</option>
+          <option value="11">11 / 12 pitch</option>
+          <option value="12">12 / 12 pitch</option>
+        </select>
+      </p>
+      <br />
+      <button id="calculate">Calculate</button>
+      <br />
+      <p>Center of ridge to outside of wall:</p>
+      <p><span id="inchesOutput"></span> <span id="fractionOutput"></span></p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
