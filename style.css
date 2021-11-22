@@ -15,14 +15,14 @@ body {
   padding: 20px;
   margin-top: 10vh;
   width: 300px;
-  height: 420px;
-  background-color: #006699;
+  height: 500px;
+  background-color: #00aaff;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: flex-start;
   border-radius: 15px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #inchesOutput {
@@ -34,11 +34,12 @@ body {
 }
 
 #calculate {
-  width: 80px;
-  height: 30px;
+  width: 100px;
+  height: 40px;
   background-color: greenyellow;
   cursor: pointer;
   border-radius: 5px;
+  font-size: 20px;
 }
 
 #calculate:hover {
