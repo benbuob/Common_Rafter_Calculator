@@ -53,13 +53,21 @@ body {
 }
 
 #run {
-  width: 50px;
-  height: 20px;
+  width: 55px;
+  height: 30px;
+  font-size: 16px;
+}
+
+#run2 {
+  width: 55px;
+  height: 30px;
+  font-size: 16px;
 }
 
 #pitch {
-  width: 100px;
-  height: 20px;
+  width: 120px;
+  height: 30px;
+  font-size: 16px;
 }
 
 button {
